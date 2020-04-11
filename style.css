@@ -12,7 +12,7 @@ body{
     font-family: 'Indie Flower','Times New Roman', Times, serif;
     font-size: 1.5rem;
     color: red;
-    min-height: 100vh;
+    min-height: 60vh;
 }
 
 .full-height-grow{
@@ -57,8 +57,8 @@ body{
 }
 
 .main-container{
-    max-width: 1500px;
+    max-width: 1800px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 10px;
 }
 

@@ -1,0 +1,10 @@
+.about-main-section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    color: white;
+    
+}

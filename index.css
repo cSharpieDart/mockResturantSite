@@ -30,6 +30,7 @@
     align-items: stretch;
     justify-content: space-between;
     flex-grow: 1;
+    padding: 100px
 }
 
 .home-main-section .img-wrapper{
@@ -43,11 +44,11 @@
 .home-main-section .pizzaperson-image{
     background-image: url(images/pizzaperson.png);
     flex-grow: 1;
-    max-height: 60vh;
-    min-width: 40vw;
+    max-height: 80vh;
+    min-width: 30vw;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: bottom left;
+    background-position: left;
 }
 
 .menu-area{
@@ -66,4 +67,15 @@
     .home-main-section{
         justify-content: center;
     }
+}
+
+.slideshow-container{
+    max-width: 1000px;
+    position: relative;
+    margin: inherit;
+}
+
+.image-shrink{
+    width: 650px;
+    height: 300px;
 }
