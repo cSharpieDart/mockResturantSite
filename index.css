@@ -1,0 +1,69 @@
+.carosel-container{
+    width: 100%;
+}
+
+.carosel-title{
+    font-weight: 700;
+    font-size: 3em;
+    margin-top: 0em;
+    margin-bottom: 2rem;
+}
+
+.carosel-subtitle{
+    font-size: 1.5em
+}
+
+.menu-btn{
+    color: black;
+    background-color: yellow;
+    padding: .75rem 1rem;
+    border-radius: .7rem;
+    text-decoration: none;
+}
+
+.menu-btn:hover{
+    background-color: yellowgreen;
+}
+
+.home-main-section{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.home-main-section .img-wrapper{
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+}
+
+.home-main-section .pizzaperson-image{
+    background-image: url(images/pizzaperson.png);
+    flex-grow: 1;
+    max-height: 60vh;
+    min-width: 40vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.menu-area{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: .5rem;
+    align-self: center;
+}
+
+@media(max-width: 800px){
+    .home-main-section .img-wrapper{
+        display: none;
+    }
+
+    .home-main-section{
+        justify-content: center;
+    }
+}

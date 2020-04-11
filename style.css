@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+/* Universal Box Sizing */
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+body{
+    padding:0;
+    margin:0;
+    background-color: #2929a3;
+    font-family: 'Indie Flower','Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: red;
+    min-height: 100vh;
+}
+
+.full-height-grow{
+    display: flex;
+    flex-direction: column;
+}
+
+.pizza-logo{
+    display: flex;
+    align-items: center;
+    font-size: 3em;
+    color: inherit;
+    text-decoration: none;
+}
+
+.resturant-name{
+    margin-left: 2rem;
+}
+
+.site-links ul{
+    display: flex;
+    list-style: none; 
+    margin: inherit;
+    padding: inherit;
+}
+
+.site-links a{
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+}
+
+.site-links a:hover{
+    color: greenyellow;
+}
+
+.main-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+}
+
+.main-container{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
