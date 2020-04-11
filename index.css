@@ -30,7 +30,7 @@
     align-items: stretch;
     justify-content: space-between;
     flex-grow: 1;
-    padding: 100px
+    padding: 100px;
 }
 
 .home-main-section .img-wrapper{
@@ -54,9 +54,10 @@
 .menu-area{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     margin: .5rem;
     align-self: center;
+    text-align: r;
 }
 
 @media(max-width: 800px){
@@ -78,4 +79,16 @@
 .image-shrink{
     width: 650px;
     height: 300px;
+}
+
+.slideButtons{
+    text-decoration: none;
+    background-color:lightcyan;
+    border-radius: .5em;
+    border: none;
+    padding: 10px;
+}
+
+.carosel-subtitle{
+    margin-bottom: 15px ;
 }
